@@ -10,6 +10,20 @@
             "email": "nacho@limenius.com"
         }
     ],
+         "repositories": [
+
+        {
+            "type":"package",
+            "package": {
+                "name": "conradkirschner/ReactRenderer",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/conradkirschner/ReactRenderer.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }},
     "autoload": {
         "psr-4": { "Limenius\\ReactBundle\\": "" }
     },
@@ -18,7 +32,7 @@
         "symfony/config": "^2.7.0|^3.0.6|^4.0|^5.0",
         "symfony/http-kernel": "^2.7.0|^3.0.6|^4.0|^5.0",
         "symfony/dependency-injection": "^2.7.0|^3.0.6|^4.0|^5.0",
-        "limenius/react-renderer": "^5.0.0"
+        "conradkirschner/ReactRenderer": "dev-master"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^2.5",
